@@ -1,0 +1,44 @@
+<html>
+<body>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AppSec exercise</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.2/css/bulma.min.css" />
+</head>
+
+<body>
+<section class="hero is-primary is-fullheight">
+  <div th:replace="fragments/header :: header">
+
+  </div>
+  <div class="hero-body">
+    <div class="container has-text-centered">
+      <div class="column is-4 is-offset-4">
+        <h3 class="title">Edit profile</h3>
+        <div class="box">
+          <form action="#" th:action="@{/edit_profile}" th:method="post" enctype="multipart/form-data">
+            <div class="field">
+              <div class="control">
+                <input id="avatar" type="file" name="avatar"/>
+              </div>
+            </div>
+
+            <button class="button is-block is-info is-large is-fullwidth">Update</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+</body>
+
+</html>
