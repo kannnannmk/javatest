@@ -1,0 +1,9 @@
+Application permits to login into user page /kannan without providing the user credentials
+
+Fix --> File name --> WebSecurityConfig.java
+
+1. .antMatchers("/**").permitAll() allows access to all pages except edit_profile page, as it is configured as   
+
+.antMatchers("/edit_profile").authenticated()
+
+2. 

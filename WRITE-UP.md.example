@@ -1,0 +1,34 @@
+# Chosen language
+
+What language did you choose for the exercise?
+
+Java / Python
+
+# \#1
+
+## Description
+
+What is the vulnerability?
+Here, you can provide the OWASP category and/or the CWE ID.
+
+## Impact
+
+What can happen if an attacker successfully exploits this vulnerability?
+
+## Exploitation
+
+Provide explanations on how the vulnerability can be exploited. 
+
+Optionally you can provide the payload for `curl`
+
+```
+curl http://127.0.0.1:8080
+```
+
+## Fix
+
+As a developer, how would you fix this vulnerability?
+
+# \#2
+
+...
